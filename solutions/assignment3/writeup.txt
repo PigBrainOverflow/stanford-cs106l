@@ -1,0 +1,6 @@
+1. What's const-correctness and why is it important for programmers?
+From a programmers' perspective, const-correctness makes code more readable.
+For compilers, const-qualifier allows more agressive optimization.
+
+2. Is your class const-correct? How do you know?
+Yes. Its operator[]() has two version: const & nonconst.

@@ -1,0 +1,6 @@
+1.
+Ordered map. Hash a string is expensive (in O(len(s))) and most string comparisons are terminated at very beginning.
+2.
+Because deque is fast in both pop_front() and push_back(). Although list is fast, it consumes more space than deque and vector. Therefore, deque is the most flexible container when considering the trade-off.
+3.
+Actually we are saving pointers to const string. Using pointers can save space but if the referenced objects are out of scope, the pointers will be dangling.
